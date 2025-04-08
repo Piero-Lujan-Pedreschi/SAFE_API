@@ -1,0 +1,25 @@
+/* Full-page background image */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('login\ image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: italic, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Centering the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the login box */
+.login-box {
+    background: rgba(162, 187, 18, 0.8); /* Semi-transparent background */
+    padding: 70px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(234, 2, 2, 0.2);
+    text-align: center;
+}
